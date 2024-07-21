@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+    background-image: linear-gradient(rgba(0,0,0,0.4), 
+    rgba(0,0,0,0.2)), url(back-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background: rgba(230, 230, 230, 0.77);
+}
+::-webkit-scrollbar-thumb{
+    background: #678715;
+    border-radius: 20px;
+}
+input{
+    display: block;
+    outline: 0;
+    margin: 10px 0px;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #b4f410;
+    position: relative;
+    font-weight: 800;
+}
+
+.underline{
+   background-color: #b4f410;
+   width: 15%;
+   margin: 0px auto;
+   margin-top: -15px;
+   margin-bottom: 30px;
+   height: 3px;
+   text-align: center;
+   border-radius: 10px;
+   transition: transform 0.4s ease-in-out;
+}
+.sign-up .btn{
+    display: flex;
+    justify-content: center;
+}
+.sign-up{
+    background: rgba(255, 255, 255, .2);
+    backdrop-filter: blur(15px);
+    padding: 0 50px;
+    padding-top: 6px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+.input-container {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.input-container i {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    transform: translateY(-50%);
+    color: grey;
+}
+::placeholder{
+    padding-left: 0px;
+}
+
+.btn button{
+    padding: 12px 42px;
+    border-radius: 16px;
+    color: black;
+    border: none;
+    margin: 0px 6px;
+    margin-top: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    font-family: "Nunito", sans-serif;
+}
+
+.active{
+    background-color: #b4f410;
+    color: white;
+}
+.disable{
+    background: white;
+    color: black;
+}
+
+.sign-up p{
+    color: white;
+    font-size: 14px;
+    margin-left: 5px;
+    padding-bottom: -10px;
+    display: inline-block;
+    margin-top: -25px;
+}
+
+.sign-up a{
+    color: #b4f410;
+    text-decoration: none;
+    font-size: 14px;
+    padding-bottom: -10px;
+    margin-left: 4px;
+}
+
+@media screen and (max-width: 440px) {
+    .sign-up{
+        background: rgba(255, 255, 255, .2);
+        backdrop-filter: blur(15px);
+        padding: 0 22px;
+        padding-top: 6px;
+        padding-bottom: 50px;
+        border-radius: 10px;
+    }
+   
+}
